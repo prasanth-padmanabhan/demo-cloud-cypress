@@ -5,7 +5,7 @@ const PORT = 3000;
 
 // Home route
 app.get("/", (req, res) => {
-res.send("Hello from Express server!");
+res.send("Hello from Express server");
 });
 
 // Start server
